@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "emitDecoratorMetadata": true,
+      "strict": true,
+      "baseUrl": ".",
+      "jsx": "preserve",
+      "sourceMap": true,
+      "lib": ["esnext", "dom"],
+       "experimentalDecorators": true,
+      "allowJs": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+      "examples/**/*.ts",
+      "packages/**/src/**/*.ts",
+      "packages/**/src/**/*.vue",
+      "utils/**/src/**/*.ts",
+      "typings/**/*.ts",
+      "typings/**/*.d.ts"
+    ]
+  }
+  

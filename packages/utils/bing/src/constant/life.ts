@@ -1,0 +1,1 @@
+export const  LIFE_TYPE_List = ['onLoad','onReslove','onOver']
